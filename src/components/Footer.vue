@@ -46,7 +46,7 @@
                     </p>
                     <p class="mt-2 text-xs font-light">
                         <i class="fas fa-envelope text-gray-600"></i>
-                        <span class="text-gray-200 text-base mx-2 sm:text-sm"> Workcation@mail.ke.org</span>
+                        <span class="text-gray-200 text-base mx-2 sm:text-sm"> edngize@gmail.com</span>
                     </p>
                     <p class="mt-2 text-xs font-light">
                         <i class="fas fa-phone-alt text-gray-600"></i>
@@ -55,9 +55,10 @@
                 </div>
             </div>
         </div>
-        <div class="bg-gray-900 py-4 flex justify-center text-gray-400 text-sm sm:text-lg">
-            <div>
-                Workcation &copy; {{ date.getFullYear('Y')}} . All rights Preserved. Developed by <a href="https://github.com/Ngizeh">Ngizeh</a>
+        <div class="bg-gray-900 py-6 flex justify-center text-gray-400 text-sm">
+            <div class="text-center">
+                <span>Workcation &copy; {{ date.getFullYear('Y')}} . All rights Preserved.</span>
+                <p>Developed by <a href="https://github.com/Ngizeh">Ngizeh</a></p>
             </div>
         </div>
     </div>
