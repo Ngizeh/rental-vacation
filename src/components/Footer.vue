@@ -35,20 +35,20 @@
                         <p class="pr-6">
                             <i class="fab fa-linkedin fa-2x"></i>
                         </p>
-                    </div> 
+                    </div>
                 </div>
                 <div class="text-gray-500 sm:w-1/4 sm:pt-0 pt-4 pb-8 mx-3">
                     <h2 class="px-1 uppercase text-lg font-normal py-2 border-b border-gray-700 leading-loose tracking-wide">Contact Us</h2>
                     <h2 class="my-1 font-semibold leading-loose">Workcation Limited Co.</h2>
-                    <p class="mt-2 text-xs font-light"> 
+                    <p class="mt-2 text-xs font-light">
                         <i class="fas fa-map-marker-alt text-gray-600"></i>
                         <span class="text-gray-200 text-base mx-2 sm:text-sm"> Thika, Ngoingwa Kenya</span>
                     </p>
-                    <p class="mt-2 text-xs font-light"> 
+                    <p class="mt-2 text-xs font-light">
                         <i class="fas fa-envelope text-gray-600"></i>
                         <span class="text-gray-200 text-base mx-2 sm:text-sm"> Workcation@mail.ke.org</span>
                     </p>
-                    <p class="mt-2 text-xs font-light"> 
+                    <p class="mt-2 text-xs font-light">
                         <i class="fas fa-phone-alt text-gray-600"></i>
                         <span class="text-gray-200 text-base mx-2 sm:text-sm"> +254 725 688 030</span>
                     </p>
@@ -57,7 +57,7 @@
         </div>
         <div class="bg-gray-900 py-4 flex justify-center text-gray-400 text-sm sm:text-lg">
             <div>
-                Workcation &copy; {{ date.getFullYear('Y')}} . All rights Preserved
+                Workcation &copy; {{ date.getFullYear('Y')}} . All rights Preserved. Developed by <a href="/https://github.com/Ngizeh">Ngizeh</a>
             </div>
         </div>
     </div>
