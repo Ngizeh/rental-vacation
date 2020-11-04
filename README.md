@@ -1,10 +1,11 @@
 # Simple Rental Booking build with tailwind and Vuejs.
+It is static site
 
 ## Build with Vuejs and TailwindCSS.
 
 Preview of the Finished App
 
-![](/public/images/Workcation.png)
+Check (https://rental-vacations.vercel.app).
 
 ## Project setup
 ```
