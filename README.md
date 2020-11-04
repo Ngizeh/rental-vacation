@@ -5,7 +5,7 @@ It is static site
 
 Preview of the Finished App
 
-Check (https://rental-vacations.vercel.app).
+Check [Here](https://rental-vacations.vercel.app).
 
 ## Project setup
 ```
