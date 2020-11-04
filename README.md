@@ -3,7 +3,7 @@ It is static site
 
 ## Build with Vuejs and TailwindCSS.
 
-Live Preview of the finished App
+Live App of the finished App
 
 Check [Here](https://rental-vacations.vercel.app).
 
