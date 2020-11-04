@@ -3,9 +3,13 @@ It is static site
 
 ## Build with Vuejs and TailwindCSS.
 
-Preview of the Finished App
+Live Preview of the finished App
 
 Check [Here](https://rental-vacations.vercel.app).
+
+Preview of the Finished App
+
+![](/public/images/Workcation.png)
 
 ## Project setup
 ```
