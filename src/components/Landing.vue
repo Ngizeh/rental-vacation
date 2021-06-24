@@ -52,23 +52,25 @@
 		</div>
 		<div class="bg-gray-300">
 			<div class="pb-10">
-				<p class="flex justify-around pt-10 uppercase font-semibold mt-8 text-xl sm:text-3xl md:text-3xl lg:text-2xl lg:mt-12 font-bold text-gray-7 00 leading-tight">
+				<p class="flex justify-around pt-10 uppercase font-semibold mt-8 text-xl sm:text-3xl md:text-3xl lg:text-2xl lg:mt-12 text-gray-7 00 leading-tight">
 					We are offering this season
 				</p>
 
 				<div class="sm:block md:flex md:items-center lg:flex lg:items-center">
-					<div v-for="(property, index) in properties" :key="index" class="p-10">
-						<div class="bg-white shadow-lg">
-							<img :src="property.imageSrc" alt="" class="w-full object-cover">
-							<div class="px-6 py-4">
-								<div class="font-bold text-xl mb-2 text-gray-800">{{ property.title }}</div>
-								<p class="text-base text-gray-700">
-									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quis dolore totam maiores unde porro laudantium esse vitae non inventore.
-								</p>
-								<div class="mt-6">
-									<router-link to="/home" class="py-2 px-3 rounded text-white font-medium bg-indigo-500">
-										Book Now
-									</router-link>
+					<div class="grid grid-cols-1 md:grid md:grid-cols-2 lg:grid lg:grid-cols-4">
+						<div v-for="(property, index) in properties" :key="index" class="p-10">
+							<div class="bg-white shadow-lg">
+								<img :src="property.imageSrc" alt="" class="w-full object-cover">
+								<div class="px-6 py-4">
+									<div class="font-bold text-xl mb-2 text-gray-800">{{ property.title }}</div>
+									<p class="text-base text-gray-700">
+										Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt quis dolore totam maiores unde porro laudantium esse vitae non inventore.
+									</p>
+									<div class="mt-6">
+										<router-link to="/home" class="py-2 px-3 rounded text-white font-medium bg-indigo-500">
+											Book Now
+										</router-link>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -107,9 +109,53 @@
 					price: 175000,
 					reviewCount: 12,
 					rating: 3,
+				},		{
+					imageSrc: 'https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+					beds: 4,
+					baths: 1,
+					title: "Quiet living outside the city",
+					price: 175000,
+					reviewCount: 12,
+					rating: 3,
+				},
+				{
+					imageSrc: 'https://images.unsplash.com/photo-1472224371017-08207f84aaae?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+					beds: 3,
+					baths: 2,
+					title: "Modern home in city center",
+					price: 190000,
+					reviewCount: 34,
+					rating: 4,
 				},
 				{
 					imageSrc: 'https://images.unsplash.com/photo-1505691938895-1758d7feb511?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+					beds: 3,
+					baths: 2,
+					title: "Family home in the suburbs",
+					price: 115000,
+					reviewCount: 34,
+					rating: 4,
+				},
+				{
+					imageSrc: 'https://images.unsplash.com/photo-1472224371017-08207f84aaae?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
+					beds: 3,
+					baths: 2,
+					title: "Modern home in city center",
+					price: 190000,
+					reviewCount: 34,
+					rating: 4,
+				},
+				{
+					imageSrc: 'https://images.unsplash.com/photo-1475855581690-80accde3ae2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80',
+					beds: 4,
+					baths: 1,
+					title: "Quiet living outside the city",
+					price: 175000,
+					reviewCount: 12,
+					rating: 3,
+				},
+				{
+					imageSrc: 'https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
 					beds: 3,
 					baths: 2,
 					title: "Family home in the suburbs",
